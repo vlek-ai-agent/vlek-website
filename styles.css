@@ -103,13 +103,6 @@ ul {
   border-radius: 8px;
 }
 
-.werk li > a {
-  display: inline-block;
-  margin-right: 0.35rem;
-  font-variant-numeric: tabular-nums;
-  font-weight: 600;
-}
-
 .spellen li {
   margin: 0 0 0.75rem;
   padding: 14px 16px;
