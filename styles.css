@@ -34,17 +34,22 @@ footer p {
 }
 
 header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
   padding-bottom: 20px;
   border-bottom: 1px solid var(--line);
 }
 
 .merk {
-  display: block;
-  width: 96px;
-  height: 96px;
-  margin-bottom: 14px;
-  border: 1px solid var(--line);
+  flex: 0 0 auto;
+  width: 64px;
+  height: 64px;
   border-radius: 8px;
+}
+
+.kop-tekst {
+  min-width: 0;
 }
 
 h1 {
