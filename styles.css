@@ -110,6 +110,26 @@ ul {
   font-weight: 600;
 }
 
+.spellen li {
+  margin: 0 0 0.75rem;
+  padding: 14px 16px;
+  background: var(--field);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.spellen li > a {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.uitleg {
+  display: block;
+  color: var(--dim);
+  font-size: 0.9375rem;
+}
+
 .waar li {
   margin: 0 0 0.4rem;
 }
